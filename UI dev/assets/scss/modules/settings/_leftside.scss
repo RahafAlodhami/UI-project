@@ -1,0 +1,47 @@
+.leftside-wrapper {
+  padding: 44px 0px 0px 31px;
+}
+.leftside-wrapper-head {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+  color: #1e293b;
+  letter-spacing: -0.4px;
+  margin-bottom: 43px;
+}
+
+.settingsMenu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.settingsMenu-button {
+  background-color: #fff;
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  &:hover {
+    background-color: #f1f5f9;
+  }
+}
+.settingsMenu-mainIcon {
+  width: 24px;
+  padding-top: 20px;
+}
+// .settingsMenu-body{
+//     display: contents;
+// }
+.settingsMenu-title {
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e293b;
+  float: left;
+}
+.settingsMenu-subTitle {
+  font-family: "Inter", sans-serif;
+  line-height: inherit;
+  font-size: 14px;
+  color: #64748b;
+  float: left;
+}

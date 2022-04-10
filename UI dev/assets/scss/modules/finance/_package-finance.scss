@@ -1,0 +1,55 @@
+.packageFinance {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+  padding-left: 26px;
+
+  &.is-current {
+    background: #fff url("../images/true.svg") no-repeat calc(100% + 20px)
+      calc(100% + 22px) / 96px;
+
+    .packageFinance-subTitle {
+      color: #61a44a;
+    }
+  }
+
+  &.is-previous {
+    background: #fff url("../images/error.svg") no-repeat calc(100% + 20px)
+      calc(100% + 22px) / 96px;
+
+    .packageFinance-subTitle {
+      color: #de2626;
+    }
+  }
+
+  &-header {
+  }
+  &-title {
+  }
+  &-subTitle {
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #64749a;
+  }
+
+  &-body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-desc {
+    flex: 0 0 calc(100% / 3);
+  }
+  &-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #64749a;
+  }
+  &-value {
+    color: #1e293b;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
